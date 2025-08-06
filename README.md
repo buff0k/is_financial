@@ -1,6 +1,6 @@
 ### Isambane Financial
 
-Financial Reports, Models and Accounting Customizations to ERPNxt
+Financial Reports, Models and Accounting Customizations to ERPNext
 
 ### Installation
 
