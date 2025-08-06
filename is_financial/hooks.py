@@ -5,22 +5,15 @@ app_description = "Financial Reports, Models and Accounting Customizations to ER
 app_email = "info@isambane.co.za"
 app_license = "mit"
 required_apps = ["frappe/erpnext"]
-
-# Apps
-# ------------------
-
-# required_apps = []
-
-# Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "is_financial",
-# 		"logo": "/assets/is_financial/logo.png",
-# 		"title": "Isambane Financial",
-# 		"route": "/is_financial",
-# 		"has_permission": "is_financial.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+    {
+        "name": "is_financial",
+        "logo": "/assets/is_production/images/is-logo.svg",
+        "title": "Isambane Financial",
+        "route": "/is_financial",
+        "has_permission": "is_financial.api.permission.has_app_permission"
+    }
+]
 
 # Includes in <head>
 # ------------------
