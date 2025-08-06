@@ -1,9 +1,10 @@
 app_name = "is_financial"
 app_title = "Isambane Financial"
 app_publisher = "Isambane Mining"
-app_description = "Financial Reports, Models and Accounting Customizations to ERPNxt"
+app_description = "Financial Reports, Models and Accounting Customizations to ERPNext"
 app_email = "info@isambane.co.za"
 app_license = "mit"
+required_apps = ["frappe/erpnext"]
 
 # Apps
 # ------------------
